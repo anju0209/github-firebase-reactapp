@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Github Firebase App
 
-## Available Scripts
+An application created using `ReactJS` to fetch the user `info` and `repos` from Github `user` API with the `Firebase Authentication`.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+Link to the Application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://gitfire-reactapp.netlify.app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone down this repository. You will need ` node` and `npm` installed globally on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm install
+```
 
-### `npm run eject`
+To Run Test Suite:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  npm test
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To Start Server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To Visit App:
 
-## Learn More
+```bash
+  localhost:3000/
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Run Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the project
 
-### Code Splitting
+```bash
+  git clone https://project-link
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Go to the project directory
 
-### Analyzing the Bundle Size
+```bash
+  cd my-project
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies
 
-### Making a Progressive Web App
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start the server
 
-### Advanced Configuration
+```bash
+  npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Firebaseconfig
 
-### Deployment
+```bash
+  put your Firebase Authentication Config in /Config/firebaseConfig.js file
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Reflection
 
-### `npm run build` fails to minify
+This was a project built during 3rd year of Engineering college as a personal project. Project goals using `RractJs` technology to create a react app to users to pull data from the `Github API`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+One of the main challenges I ran into was Authentication, here i used `Firease` Authentication
+
+## API Reference
+
+#### API used in this project
+
+```http
+   https://api.github.com/users/github-user-name
+```
+
+## Documentation
+
+[Github Users API](https://docs.github.com/en/rest/reference/users)
+
+[React](https://beta.reactjs.org/)
